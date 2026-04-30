@@ -239,7 +239,7 @@
 
   let is_deploying = $state(false);
   // Vibe settings from global _tk_settings
-  let vibe_zone_enabled = $state(true);
+  let vibe_zone_enabled = $state(false);
 
   let vibe_zone_visible = $state(false)
   let vibe_zone_fullscreen = $state(false);

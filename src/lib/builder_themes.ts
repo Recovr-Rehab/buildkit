@@ -20,6 +20,19 @@ export const current_builder_theme = writable<BuilderTheme | null>(null)
 
 export const builder_themes: BuilderTheme[] = [
 	{
+		id: 'recovr',
+		name: 'Recovr',
+		colors: {
+			bg_primary: '#0f1310',
+			bg_secondary: '#181d18',
+			bg_tertiary: '#232a23',
+			accent: '#60744D',
+			text_primary: '#f3f4f1',
+			text_secondary: '#a3aa9b',
+			border: '#2a322a'
+		}
+	},
+	{
 		id: 'tinykit',
 		name: 'tinykit',
 		colors: {

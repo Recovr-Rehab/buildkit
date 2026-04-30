@@ -10,6 +10,7 @@
 		// Load theme immediately to prevent flash
 		(function () {
 			const themes = {
+				'recovr': { bg_primary: '#0f1310', bg_secondary: '#181d18', bg_tertiary: '#232a23', accent: '#60744D', text_primary: '#f3f4f1', text_secondary: '#a3aa9b', border: '#2a322a' },
 				'tinykit': { bg_primary: '#0d0d0d', bg_secondary: '#1e1e1e', bg_tertiary: '#2a2a2a', accent: '#22c55e', text_primary: '#ffffff', text_secondary: '#999999', border: '#2a2a2a' },
 				'ocean': { bg_primary: '#0f172a', bg_secondary: '#1e293b', bg_tertiary: '#334155', accent: '#0ea5e9', text_primary: '#f1f5f9', text_secondary: '#94a3b8', border: '#334155' },
 				'forest': { bg_primary: '#18181b', bg_secondary: '#27272a', bg_tertiary: '#3f3f46', accent: '#10b981', text_primary: '#fafafa', text_secondary: '#a1a1aa', border: '#3f3f46' },
@@ -31,8 +32,8 @@
 				'ember': { bg_primary: '#151010', bg_secondary: '#1e1717', bg_tertiary: '#2a2121', accent: '#e07850', text_primary: '#ede8e6', text_secondary: '#9a8f8c', border: '#362c2c' },
 				'slate': { bg_primary: '#1a1d23', bg_secondary: '#22262e', bg_tertiary: '#2c323c', accent: '#5eb3d5', text_primary: '#e2e6ec', text_secondary: '#8892a2', border: '#363d4a' }
 			}
-			const savedId = localStorage.getItem('builder-theme') || 'tinykit'
-			const theme = themes[savedId] || themes['tinykit']
+			const savedId = localStorage.getItem('builder-theme') || 'recovr'
+			const theme = themes[savedId] || themes['recovr']
 			const root = document.documentElement
 			root.style.setProperty('--builder-bg-primary', theme.bg_primary)
 			root.style.setProperty('--builder-bg-secondary', theme.bg_secondary)

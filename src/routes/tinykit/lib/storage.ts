@@ -43,7 +43,7 @@ function get_auth_headers(): Record<string, string> {
 }
 
 export async function load_vibe_zone_enabled(): Promise<boolean> {
-	if (typeof window === "undefined") return true
+	if (typeof window === "undefined") return false
 
 	try {
 		const res = await fetch(`/api/settings?key=${VIBE_ZONE_SETTING_KEY}`, {
@@ -58,7 +58,7 @@ export async function load_vibe_zone_enabled(): Promise<boolean> {
 	} catch (e) {
 		console.error("Failed to load vibe_zone_enabled:", e)
 	}
-	return true // Default ON for new users
+	return false // Default OFF for new users
 }
 
 export async function save_vibe_zone_enabled(enabled: boolean): Promise<void> {

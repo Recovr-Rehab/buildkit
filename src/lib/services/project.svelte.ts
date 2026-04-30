@@ -43,7 +43,7 @@ const DEFAULT_PROJECT: Partial<Project> = {
 	custom_instructions: '',
 	data: {},
 	settings: {
-		vibe_zone_enabled: true,
+		vibe_zone_enabled: false,
 		project_title: ''
 	}
 }
