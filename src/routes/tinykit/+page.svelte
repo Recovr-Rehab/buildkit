@@ -202,7 +202,7 @@
 </script>
 
 <svelte:head>
-  <title>Dashboard - tinykit</title>
+  <title>Dashboard - recovr Builder</title>
 </svelte:head>
 
 <div class="min-h-screen bg-[var(--builder-bg-primary)] safe-area-top">
@@ -210,7 +210,7 @@
   <header class="border-b border-[var(--builder-border)] py-4">
     <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
       <div class="flex items-center gap-8">
-        <Logo width="4rem" />
+        <Logo width="8rem" />
       </div>
 
       <div class="flex items-center gap-3">

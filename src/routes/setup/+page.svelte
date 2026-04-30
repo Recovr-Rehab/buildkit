@@ -153,7 +153,7 @@
 </script>
 
 <svelte:head>
-	<title>Setup - tinykit</title>
+	<title>Setup - recovr Builder</title>
 </svelte:head>
 
 <div
@@ -175,7 +175,7 @@
 				<h1
 					class="text-2xl font-semibold text-[var(--builder-text-primary)]"
 				>
-					Welcome to tinykit
+					Welcome to recovr Builder
 				</h1>
 				<p class="text-sm text-[var(--builder-text-secondary)] mt-2">
 					Create your admin account to get started

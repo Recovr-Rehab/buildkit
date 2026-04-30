@@ -52,7 +52,7 @@
 </script>
 
 <svelte:head>
-	<title>Login - tinykit</title>
+	<title>Login - recovr Builder</title>
 </svelte:head>
 
 <div class="min-h-screen bg-[var(--builder-bg-primary)] flex items-center justify-center p-4 safe-area-top safe-area-bottom">
@@ -64,7 +64,7 @@
 	<div class="w-full max-w-sm">
 		<!-- Logo -->
 		<div class="text-center mb-8">
-			<h1 class="text-2xl font-semibold text-[var(--builder-text-primary)]">tinykit</h1>
+			<h1 class="text-2xl font-semibold text-[var(--builder-text-primary)]">recovr <span class="font-light text-[var(--builder-text-secondary)]">Builder</span></h1>
 			<p class="text-sm text-[var(--builder-text-secondary)] mt-1">Sign in to your account</p>
 		</div>
 

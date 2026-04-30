@@ -585,9 +585,9 @@
 <Dialog.Root bind:open={show_help_dialog}>
   <Dialog.Content class="help-dialog">
     <Dialog.Header>
-      <Dialog.Title>tinykit Help</Dialog.Title>
+      <Dialog.Title>recovr Builder Help</Dialog.Title>
       <Dialog.Description>
-        Learn how to use the different features of tinykit.
+        Learn how to use the different features of recovr Builder.
         <a
           href="https://docs.tinykit.studio"
           target="_blank"
